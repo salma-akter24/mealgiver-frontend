@@ -232,19 +232,19 @@ const Home = () => {
                       </div>
                       <div className="mt-5 space-y-3">
                         <div className="flex items-center justify-between rounded-xl border border-slate-200 p-3 dark:border-slate-700">
-                          <span>Restaurant</span>
+                          <span className="text-white">Restaurant</span>
                           <span className="font-semibold text-emerald-600">
                             Share
                           </span>
                         </div>
                         <div className="flex items-center justify-between rounded-xl border border-slate-200 p-3 dark:border-slate-700">
-                          <span>Charity</span>
+                          <span className="text-white">Charity</span>
                           <span className="font-semibold text-orange-500">
                             Request
                           </span>
                         </div>
                         <div className="flex items-center justify-between rounded-xl border border-slate-200 p-3 dark:border-slate-700">
-                          <span>Community</span>
+                          <span className="text-white">Community</span>
                           <span className="font-semibold text-primary">
                             Impact
                           </span>
@@ -354,7 +354,7 @@ const Home = () => {
               Screenshots
             </p>
             <h2 className="mt-3 text-3xl font-black text-base-content md:text-4xl">
-              Application views to capture for review.
+              Explore Every Side of MealGiver.
             </h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
@@ -418,7 +418,7 @@ const Home = () => {
                   key={benefit}
                   className="rounded-2xl border border-base-300 bg-base-100 p-5 shadow-sm"
                 >
-                  <div className="mb-3 inline-flex rounded-xl bg-emerald-100 p-2 text-emerald-700 dark:bg-emerald-900/20 dark:text-emerald-200">
+                  <div className="mb-3 inline-flex rounded-xl  p-2 text-emerald-700 ">
                     <FaLeaf />
                   </div>
                   <p className="text-lg font-semibold text-base-content">
